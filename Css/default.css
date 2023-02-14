@@ -1,0 +1,95 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --color-light: #677788;
+    --color-blue: #2476ff;
+    --color-green: #01c9a7;
+    --dot-color: #0066ff;
+    --form-bg: #20335b;
+    --form-text: #828282;
+    --hiring-bg: #2576ff;
+    --footer-icon-light: #ecf3ff;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  *,
+  ::after,
+  ::before {
+    box-sizing: border-box;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  a { text-decoration: none; }
+  
+  img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+  }
+  
+  .container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    background: #2476ff;
+    border-radius: 30px;
+    color: var(--white);
+  }
+  
+  .video-play {
+    gap: 8px;
+  }
+  
+  .company-bubble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--white);
+    box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    position: absolute;
+  }
+  
+  .company-bubble {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .company-bubble img {
+    width: 48px;
+    height: 48px;
+  }
+  
+  .gb {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .gb img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  
+  @media (min-width: 1200px) {
+    .container { max-width: 1024px; }
+  }

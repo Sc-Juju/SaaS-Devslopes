@@ -1,0 +1,277 @@
+@media screen and (max-width: 768px) {
+    [aria-controls="navbarDropdown"] {
+      display: block;
+    }
+  
+    [aria-expanded="false"] ~ .nav-mobile {
+      display: none;
+    }
+  
+    [aria-expanded="true"] ~ .nav-mobile {
+      display: block;
+      position: absolute;
+      top: 75px;
+      left: 0px;
+      height: 750px;
+      width: 100%;
+      background-color: var(--white);
+      padding: 0px;
+    }
+  
+    [aria-expanded="true"] ~ .nav-mobile ul {
+      display: flex;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      top: 50px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    [aria-expanded="true"] ~ .nav-mobile a.btn {
+      position: absolute;
+      top: 100px;
+      left: 41%;
+      right: 41%;
+    }
+  
+    .top-section {
+      height: 800px;
+    }
+  
+    .heroSection {
+      flex-direction: column;
+      height: 750px;
+      align-items: center;
+    }
+  
+    .heroSection .title {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+  
+    .heroSection .actions { justify-content: center; }
+  
+    .benefits-list { flex-wrap: wrap; }
+    .benefit-item { width: 315px;}
+  
+    .banner-section-content { flex-direction: column;}
+    .banner-section-content .left-part { height: 300px; }
+    .banner-section-content .left-part div { text-align: center;}
+  
+    .banner-section-content .left-part .actions {
+      margin: 0 auto;
+      width: auto;
+    }
+  
+    .bullet .top .left-wing, 
+    .bullet .top .right-wing { width: 50.5px; }
+  
+    .banner-frame .play-button {
+      top: 45%;
+      left: 45%;
+    }
+  
+    .hubspot .container { 
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .hubspot .container .left-part .christina-photo { left: 40%; }
+    .hubspot .container .left-part .background-dots { left: 28%; }
+    .hubspot .container .left-part { height: 450px; }
+  
+    .hubspot .container .right-part {
+      margin: 0px auto;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .hubspot .container .right-part .description img { margin: 0px auto;}
+    .brands .container .brands-flex img { height: 20px; }
+    
+    .pricing-flex { 
+      flex-direction: column;
+      margin: 0px auto;
+    }
+  
+    .pricing-flex .plan { width: 100%; }
+  
+    .pricing-flex .plan-feature-item {
+      width: 266px;
+      height: 300px;
+    }
+  
+    .hire-us .container { flex-direction: column; }
+  
+    .hire-us .container .left-part {
+      flex-direction: row;
+      padding: 0px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .hire-us .container .left-part .top { width: 300px;} 
+    .hire-us .container .left-part .bottom .person { width: 150px; }
+  
+    .hire-us .container .right-part { width: 100%; }
+    .hire-us .container .right-part form { width: 100%; }
+  
+    .frame-12 { 
+      flex-wrap: wrap; 
+      width: 100%;
+    }
+  
+    .frame-121 { width: 150px; }
+  }
+  
+  @media screen and (max-width: 480px) {
+    [aria-expanded="true"] ~ .nav-mobile ul {
+      flex-direction: column;
+    }
+  
+    [aria-expanded="true"] ~ .nav-mobile a.btn {
+      position: absolute;
+      top: 275px;
+      left: 32%;
+      right: 32%;
+    }
+  
+    .heroSection .left-part { width: 350px; }
+    .heroSection .right-part { width: 350px; }
+    .heroSection .actions { width: 350px; }
+  
+    .company-bubble.asana { left: 270px; }
+    .company-bubble.calendar { left: 226px; }
+    .company-bubble.weave { left: 202px;}
+    .company-bubble.paypal { left: 09px; }
+    .company-bubble.atlassian { left: 115px; }
+    .gb.g-ads { left: 95px; }
+    .gb.google { left: 4px;}
+   
+  
+    .benefits-title p { text-align: center; }
+  
+    .banner-section-content .right-part { height: auto; }
+    .why-front-title { width: 350px;}
+    .why-front-title p { width: 300px; }
+  
+    .bullet-list { flex-direction: column; }
+    .bullet-list .bullet { flex-direction: row; }
+    .bullet .top .left-wing, .bullet .top .right-wing {
+      width: 0px;
+    }
+  
+    .banner-frame .play-button { top: 25%; }
+  
+    .hubspot .container .left-part { width: 350px; }
+    .hubspot .container .left-part .background-dots { left: 2%; }
+  
+    .hubspot .container .left-part .christina-photo {
+      width: 300px; 
+      left: 10%;
+    }
+  
+    .hubspot .container .right-part { 
+      width: 100%;
+      padding: 0px;
+    }
+  
+    .hubspot .container .right-part .person p { width: auto; }
+  
+    .brands .container .brands-flex { flex-direction: column; }
+    .brands .container .brands-flex img { height: 69px; }
+  
+    .pricing-flex { padding: 10px; }
+    .pricing-flex .plan { width: 340px; }
+    .pricing-flex .plan .header .plan-price { align-self: center; }
+    .pricing-flex .plan .header .plan-divider { align-self: center; }
+    .pricing-flex .plan .header p { width: auto; }
+    .pricing-flex .plan .footer { margin: 0 auto; }
+    .pricing-flex .plan-features { width: 350px; }
+  
+    .hire-us .container .left-part { 
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .hire-us-title .title  { 
+      align-self: center;
+      padding: 0px;
+    }
+  
+    .hire-us-title .title h3 { width: auto; }
+    .hire-us-title .title p { text-align: center;}
+    .hire-us .container .left-part .phrase { 
+      width: auto; 
+      text-align: center;
+    }
+  
+    .hire-us .container .left-part .bottom {
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .hire-us .container .left-part .bottom .person {
+      padding: 0px;
+      text-align: center;
+    }
+  
+    .hire-us .container .right-part form .form-data { 
+      width: 260px; 
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .form-data .form-group {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: auto;
+    }
+    .form-data .form-group input { width: 250px; }
+  
+    .form-data .form-group select { 
+      width: 250px;
+      padding-left: 16px;
+    }
+  
+    .form-data textarea { width: 250px; }
+  
+    .form-data .emails-policy { width: auto; }
+    .form-data .emails-policy label .policies { 
+      width: auto; 
+      flex-direction: column;
+    }
+  
+    .frame-11 .info .phone { align-self: center; }
+  
+    footer .frame-1, footer .frame-11 { 
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .frame-12 { justify-content: center; }
+    .frame-121 { align-items: center; }
+    footer .frame-2 { width: 100%; }
+  
+    .frame-31 { 
+      flex-direction: column;
+      width: auto;
+      gap: 20px;
+    }
+  
+    .frame-31 .socials-list { 
+      flex-wrap: wrap; 
+      justify-content: center;
+    }
+  
+    .socials-list div { width: 30px; }
+  
+    .frame-32 div { width: 300px; }
+  }
